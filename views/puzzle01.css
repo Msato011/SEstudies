@@ -1,0 +1,85 @@
+@charset "UTF-8"; 
+
+/* ■ 共通スタイル */
+body {
+  background-color: #fff;
+}
+
+/* ■ PCのスタイル (幅768px以上) */
+@media screen and (min-width: 768px) {
+  .container {
+      display: flex;
+      justify-content: center; 
+      flex-direction: column;  
+      align-items: center;      
+  }
+.box1 {
+    background-color: #739aff;
+    width: 400px;
+    height: 100px;
+  }
+
+.row {
+  display: flex; 
+  width: 100%; 
+  padding: 0px; 
+  justify-content: center; 
+  
+}
+
+.box2 {
+  background-color: #ffa473;
+  width: 150px;
+  height: 250px;
+}
+
+.box3 {
+  background-color: #e6ff73;
+  width: 250px;
+  height: 250px;
+}
+
+.box4 {
+  background-color: #ff7376;
+  width: 400px;
+  height: 100px;
+}
+}
+
+/* ■ SPのスタイル (幅767px以下) */
+@media screen and (max-width: 767px) { 
+  .container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;   
+    align-items: center;     
+}
+.box1 {
+  background-color: #739aff;
+  width: 100%;
+  height: 100px;
+}
+
+.row {
+width: 100%; 
+flex-direction: column; 
+}
+
+.box2 {
+background-color: #7374ff;
+width: 100%;
+height: 250px;
+}
+
+.box3 {
+background-color:#73fbff;
+width: 100%;
+height: 250px;
+}
+
+.box4 {
+background-color: #ff7376;
+width: 100%;
+height: 100px;
+}
+}
