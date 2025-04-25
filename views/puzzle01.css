@@ -2,8 +2,10 @@
 
 /* ■ 共通スタイル */
 body {
-  background-color: #fff;
+  background-color: #ffff
+  
 }
+
 
 /* ■ PCのスタイル (幅768px以上) */
 @media screen and (min-width: 768px) {
